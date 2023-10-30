@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"e1f0a5bcc15c832d","x":-20,"y":-176,"width":340,"height":264,"type":"text","text":"## SPISR Register\n- Read only from the CPU\n- Default value: 0x0a5\n- Description: SPI Status Register\n- Address: 0x64"},
+		{"id":"88698734b8751af7","x":-20,"y":-660,"width":376,"height":61,"type":"text","text":"# SPI Register Module"},
+		{"id":"7af016e692220e0c","x":-340,"y":-500,"width":250,"height":60,"type":"text","text":"Memory Mapped IO"},
+		{"id":"472c865e04acc26b","x":-400,"y":-12,"width":250,"height":100,"type":"text","text":"Comes from Xilinx spec [[ds843_axi_quad_spi.pdf]]"},
+		{"id":"cae878b17452efe1","x":360,"y":-176,"width":316,"height":264,"type":"text","text":"## Control Register\n- Read and Write from CPU\n- Default value: 0x180\n- Description: SPI Control Register\n- Address: 0x60"},
+		{"id":"5b78d20fcd536b57","x":740,"y":-169,"width":406,"height":84,"type":"text","text":"## N-bit Slave Select Register"},
+		{"id":"ecd41fc0c6b23833","x":1183,"y":-154,"width":337,"height":69,"type":"text","text":"## Pair of Tx Rx"},
+		{"id":"736f2c0f69dc0672","x":-215,"y":280,"width":477,"height":280,"type":"text","text":"### Register Content\n\n![[Pasted image 20230927094022.png]]"}
+	],
+	"edges":[
+		{"id":"01533b05ac86824d","fromNode":"472c865e04acc26b","fromSide":"right","toNode":"e1f0a5bcc15c832d","toSide":"left"},
+		{"id":"c7dd5267e579c0d7","fromNode":"88698734b8751af7","fromSide":"left","toNode":"7af016e692220e0c","toSide":"top"},
+		{"id":"06bdb6eedc206a70","fromNode":"7af016e692220e0c","fromSide":"bottom","toNode":"e1f0a5bcc15c832d","toSide":"left"},
+		{"id":"8fea8208526cbe22","fromNode":"e1f0a5bcc15c832d","fromSide":"bottom","toNode":"736f2c0f69dc0672","toSide":"top"}
+	]
+}

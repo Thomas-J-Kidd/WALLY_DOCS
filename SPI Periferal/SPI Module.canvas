@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"b9d422820f98fc8c","type":"file","file":"Research/SPI Periferal/SPI Shift Register.md","x":-680,"y":-660,"width":340,"height":50},
+		{"id":"ada733f0bd04e0cf","x":-696,"y":-320,"width":356,"height":50,"type":"file","file":"Research/SPI Periferal/Parameterized Baud Rate Generator (BRG).md"}
+	],
+	"edges":[]
+}
