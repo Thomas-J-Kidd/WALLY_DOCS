@@ -10,8 +10,9 @@ In order to contribute to an Open Source project you will need to have a version
 Wally is maintained by a group of people on their GitHub who review and accept changes to the repository if they think its a good change or addition to the project. 
 
 In order for you to also work on Wally you will want to fork the repository. Not clone, but **fork**. 
-![[Pasted image 20231101151328.png]]
+![image](forking.png)
 
+	 
 Having your own fork is nice. You can make whatever changes you want to it, back it up (push to github) and not worry about someone not liking your changes. This is nice because it allows you to make changes that you can back up without having a complete finished modification. Once you are done,, you can then create a pull request, where one of the maintainers of Wally will review your pull request. If they like it :) if not :(
 
 # Step 2 Clone your own fork
