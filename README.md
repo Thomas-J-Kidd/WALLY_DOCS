@@ -10,5 +10,8 @@ To download obsidan go here:https://obsidian.md/
 
 [[I2C]]
 
+# Initial Setup
+
+
 # Regression Tests
 [[Regression Tests/README|README]]
