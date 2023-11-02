@@ -26,5 +26,17 @@ You will want to setup an SSH key to your Github account first. Follow this guid
 Next you want to checkout this guide on setting up your host environment
 [[Setting up setup-host.sh file]]
 
+# Step 4 Add some bins to your .bashrc file
+The tools we use for wally are programs on your server. These tools have locations that they are stored in. When you want to make the simulations or execute certain programs, Wally needs to know where those tools are. Linux based systems usually store these in `bin`folders. We need to make sure we add a couple of different folders to our `.bashrc` so Wally (in our terminal) knows where to look for these programs. 
 
-# Step 4 Start your journey with Wallk
+```bash
+# custom bashrc for Wally
+export MGLS_LICENSE_FILE=1717@trelaina.ecen.okstate.edu
+export PATH=$PATH:/opt/ModelSim/questasim/bin/
+export PATH=$PATH:/opt/riscv/bin/
+```
+
+These are some of the lines you might have to add. This might be incomplete, and needs extra attention. Please ask your instructor, TA, or someone who knows how this works. 
+
+
+# Step 5 Start your journey with Wallk
