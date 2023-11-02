@@ -49,7 +49,7 @@ In this step we will add our actual test file to the lists of tests to execute.
 
 **Directory:** `/home/thkidd/Projects/cvw/tests/wally-riscv-arch-test/riscv-test-suite/rv64i_m/privilege/src`
 
-The test file we want to write is: `WALLY-thomas-practice-01` This is what we added to the list of tests to be executed before. 
+The test file we want to write is: `WALLY-thomas-practice-01.S` This is what we added to the list of tests to be executed before. 
 
 We will dive deeper into how to write these tests in the next tutorial. 
 
