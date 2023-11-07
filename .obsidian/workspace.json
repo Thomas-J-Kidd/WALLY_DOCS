@@ -25,19 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regression Tests/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "149efb4712f8bbe5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Regression Tests/Running Regression tests for Rose.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,8 +73,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#TODO",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -102,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -123,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regression Tests/Running Regression tests for Rose.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Regression Tests/Running Regression tests for Rose.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regression Tests/Running Regression tests for Rose.md"
+                "file": "README.md"
               }
             }
           }
@@ -184,21 +171,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "149efb4712f8bbe5",
+  "active": "4f541324d44bc69b",
   "lastOpenFiles": [
-    "Regression Tests/Writing a basic regression test.md",
     "Regression Tests/Running Regression tests for Rose.md",
+    "Regression Tests/README.md",
+    "Research/InitialSetup/README|README.md",
+    "Research/InitialSetup/README.md",
+    "README.md",
+    "I2C/I2C.md",
+    "InitialSetup/README.md",
+    "Research/InitialSetup",
+    "Research",
+    "Regression Tests/Writing a basic regression test.md",
     "Regression Tests/Simulation.md",
     "Regression Tests/synthesys.md",
     "Attachments",
     "Attachments/Questa-sim.png",
     "synthesis.md",
-    "Regression Tests/README.md",
     "Regression Tests/setup-host.sh.md",
     "Regression Tests/WALLY-thomas-practice-01.S",
-    "InitialSetup/README.md",
-    "README.md",
-    "I2C/I2C.md",
     "SPI Periferal/Process of adding a new peripheral.canvas"
   ]
 }

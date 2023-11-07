@@ -11,10 +11,10 @@ To download obsidian go here:https://obsidian.md/
 
 
 # Initial Setup
-[[Research/InitialSetup/README|README]]
+[Initial Setup](InitialSetup/README.md)
 
 # Regression Tests
-[[Regression Tests/README|README]]
+[What is simulating](Regression%20Tests/README.md)
 
 # Peripheral Design
-[[I2C]]
+[I2C](I2C/I2C.md)
