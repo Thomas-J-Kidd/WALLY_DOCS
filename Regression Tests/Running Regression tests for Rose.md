@@ -38,15 +38,33 @@ extractFunctionRadix.sh ../tests/riscof/work/wally-riscv-arch-test/rv64i_m/privi
 
 ```
 
+# Step 2 Pre Run
+Add the tests to the testbench directory so Questa knows what tests to run 
 
-# Step 2
+The location of adding the test is: `cvw/testbench/tests.vh`
+
+Depending on what kind of test you are adding you need to add to a specific section. Our test is testing the `wallyrv64priv[]` tests so we must add it in there. 
+
+```
+ string wally64priv[] = '{
+    `WALLYTEST,
+    "rv64i_m/privilege/src/WALLY-minfo-01.S",
+    "rv64i_m/privilege/src/WALLY-misaligned-access-01.S",
+    "next_test",
+    "next_test",
+    "next_test",
+    "next_test",
+    "next_test",
+```
+
+# Step 3 Run the tests
 I ran `./sim-wally-batch` and outputted it to the following file: `batch.log`
 
-If I search for `misaligned-access-01` I cannot find anything. I can find other things like 
+
+
+
 
 ```
-# Read memfile ../tests/riscof/work/wally-riscv-arch-test/rv64i_m/privilege/src/WALLY-misa-01.S/ref/ref.elf.memfile
+${IDV}/scripts/cvw/run-elf.bash --elf tests/riscof/work/wally-riscv-arch-test/rv64i_m/privilege/src/WALLY-misaligned-access-01.S/ref/ref.elf --verbose
 
 ```
-
-

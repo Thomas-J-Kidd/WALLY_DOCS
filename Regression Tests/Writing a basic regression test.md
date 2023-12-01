@@ -158,9 +158,11 @@ riscv64-unknown-elf-elf2hex --bit-width 64 --input ../tests/riscof/work/wally-ri
 
 
 
+# Step 5 Adding our test to be simulated by Questa
 
+If we want our test to show up
 
-# Step 5 Execute testing
+# Step 6 Execute testing
 
 When you want to execute testing, we can do this in either of two ways. Either with through a GUI or through the terminal. Terminal verification can be nice for quick checks, but for catching the actual bug in your HDL or test is almost impossible. 
 
